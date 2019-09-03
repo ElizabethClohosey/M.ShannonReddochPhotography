@@ -4,28 +4,48 @@ html {
 }
 
 body {
-    background-image: linear-gradient(rgb(190, 190, 190), rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(224, 222, 222), rgb(0, 0, 0));
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-  #signature {
+ul {
+  border: 2px solid black;
+  position: fixed;
+  top: 50px;
+  left: 15px;
+  line-height: 1.75em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  header h1 {
+    margin-top: 3%;
+    line-height: .75em;
+    /* letter-spacing: .10em; */
+    /* width: 80%; */
+    text-align: center;
     font-family: 'Satisfy', cursive;
-    font-size: 3em;
-    margin-left: 20%;
+    font-size: 4.20em;
+    /* margin-left: 20%; */
     font-weight: 400;
     text-shadow: 0px 5px 7px red;
   }
 
   header p {
+    width: 45%;
+    padding-bottom: .5%;
+    border-bottom: 1px solid red;
+    margin-top: 1.75%;
     /* border: 1px solid black; */
-    text-shadow: 0px 2px 2px red;
-    font-size: 1em;
-    margin-left: 35%;
+    /* text-shadow: 0px 2px 2px red; */
+    font-size: 1.25em;
+    text-align: center;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2%;
     font-weight: bolder;
   }
@@ -37,17 +57,20 @@ body {
   #landscapes {
     position: relative;
     height: 350px;
-    width: 90%;
+    width: 80%;
     background: white;
     /* border: 1px solid black; */
-    margin-left: 5%;
+    margin-left: 10%;
     margin-bottom: 2%;
   }
 
 .caption-side {
-    border: 1px solid red;
-    height: 350px;
-    width: 50%;
+    /* border: 1px solid red; */
+    height: 175px;
+    padding-top: 8%;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
     float: left;
     text-align: center;
 }
@@ -55,7 +78,7 @@ body {
   .image-side {
     height: 350px;
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: absolute;
     right: 0px;
     background-size: cover;
@@ -78,10 +101,12 @@ body {
 section div h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+    font-size: 2em;
 }
 section div p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+    font-size: 1.75em;
 }
   
 
