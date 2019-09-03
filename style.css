@@ -2,6 +2,7 @@
 html {
     height: 100%;
 }
+
 body {
     background-image: linear-gradient(rgb(190, 190, 190), rgb(0, 0, 0));
     height: 100%;
@@ -9,12 +10,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-/* body {
-    background-image: linear-gradient(rgb(190, 190, 190), rgb(0, 0, 0));
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
 
   #signature {
     font-family: 'Satisfy', cursive;
@@ -26,28 +21,68 @@ body {
 
   header p {
     /* border: 1px solid black; */
+    text-shadow: 0px 2px 2px red;
     font-size: 1em;
     margin-left: 35%;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 2%;
+    font-weight: bolder;
   }
+
+  /* remove drop shadow from header p  */
   
   #experimental, 
   #flowers,
   #landscapes {
-    height: 300px;
+    position: relative;
+    height: 350px;
     width: 90%;
     background: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 5%;
     margin-bottom: 2%;
   }
 
-  section div p {
+.caption-side {
     border: 1px solid red;
-    height: 300px;
+    height: 350px;
     width: 50%;
     float: left;
-    background: black;
-    }
+    text-align: center;
+}
+
+  .image-side {
+    height: 350px;
+    width: 50%;
+    border: 1px solid green;
+    position: absolute;
+    right: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+  #experimental-image-side {
+      background-image: url("https://live.staticflickr.com/5828/20600727461_ae5396f24f_b.jpg");
+  }
+
+  #flowers-image-side {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4hQeh2SO5ZQtc5vyK3CmqchPl9ABXb6GNR71MtO_CV2u4sKQkaA");
+}
+
+  #landscapes-image-side {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_960_720.jpg");
+}
+
+section div h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+section div p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+  
+
+  
