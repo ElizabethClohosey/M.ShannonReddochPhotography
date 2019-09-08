@@ -13,6 +13,10 @@ body {
     padding-top: 1%;
 }
 
+a {
+  color: white;
+}
+
 a:link {
   text-decoration: none;
   font-weight: 800;
@@ -98,27 +102,27 @@ ul {
     text-align: center;
 }
 
-  .image-side {
-    height: 350px;
-    width: 50%;
-    /* border: 1px solid green; */
-    position: absolute;
-    right: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.image-side {
+  height: 350px;
+  width: 50%;
+  /* border: 1px solid green; */
+  position: absolute;
+  right: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
-  #experimental-image-side {
-      background-image: url("images/experimental/R1.jpeg");
-  }
-
-  #flowers-image-side {
-    background-image: url("images/flowers/HH1.jpeg");
+#experimental-image-side {
+    background-image: url("images/experimental/R1.jpeg");
 }
 
-  #landscapes-image-side {
-    background-image: url("images/landscapes/4032x2268_Sedona.jpg");
+#flowers-image-side {
+  background-image: url("images/flowers/HH1.jpeg");
+}
+
+#landscapes-image-side {
+  background-image: url("images/landscapes/4032x2268_Sedona.jpg");
 }
 
 section div h2 {
@@ -133,8 +137,16 @@ section div p {
 }
 
 footer {
+  width: 80%;
   text-align: center;
-  /* float: left;*/
+  padding-bottom: 2%;
+  padding-left: 8%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: .75em;
+}
+
+.footer-links {
+  margin-left: 5%;
 }
   
 
