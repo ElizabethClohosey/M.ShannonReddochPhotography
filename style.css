@@ -60,7 +60,7 @@ ul {
     /* color: white;  alternate idea  */
     width: 45%;
     padding-bottom: .5%;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
     margin-top: 1.75%;
     /* border: 1px solid black; */
     /* text-shadow: 0px 2px 2px red; */
@@ -110,15 +110,15 @@ ul {
 }
 
   #experimental-image-side {
-      background-image: url("https://live.staticflickr.com/5828/20600727461_ae5396f24f_b.jpg");
+      background-image: url("images/experimental/R1.jpeg");
   }
 
   #flowers-image-side {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4hQeh2SO5ZQtc5vyK3CmqchPl9ABXb6GNR71MtO_CV2u4sKQkaA");
+    background-image: url("images/flowers/HH1.jpeg");
 }
 
   #landscapes-image-side {
-    background-image: url("https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_960_720.jpg");
+    background-image: url("images/landscapes/4032x2268_Sedona.jpg");
 }
 
 section div h2 {
