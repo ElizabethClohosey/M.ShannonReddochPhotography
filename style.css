@@ -62,7 +62,7 @@ ul {
 
   header p {
     /* color: white;  alternate idea  */
-    width: 45%;
+    width: 35%;
     padding-bottom: .5%;
     border-bottom: 2px solid red;
     margin-top: 1.75%;
@@ -94,7 +94,7 @@ ul {
 .caption-side {
     /* border: 1px solid red; */
     height: 175px;
-    padding-top: 8%;
+    padding-top: 6%;
     width: 50%;
     margin-top: 5%;
     float: left;
